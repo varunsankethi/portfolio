@@ -1,11 +1,7 @@
 body {
 	font-family: 'Catamaran', sans-serif;
-	/*max-width: 960px;*/
 }
 
-/*.page-header {
-	overflow: auto;
-}*/
 .portfolio-name {
 	float: right;
 }
@@ -28,9 +24,9 @@ body {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 }
 
 figure {
 	text-align: center;
-	vertical-align: middle;
 } 
