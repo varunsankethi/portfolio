@@ -1,0 +1,36 @@
+body {
+	font-family: 'Catamaran', sans-serif;
+	/*max-width: 960px;*/
+}
+
+/*.page-header {
+	overflow: auto;
+}*/
+.portfolio-name {
+	float: right;
+}
+.udacity-logo {
+	float: left;
+	position: relative;
+}
+
+.page-header:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.main-image img {
+	width: 100%;
+}
+
+.flex-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+figure {
+	text-align: center;
+	vertical-align: middle;
+} 
